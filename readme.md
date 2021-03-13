@@ -2,7 +2,7 @@
 
 
 
-![](C:\Users\paul_\voa-data\CPSpaces.png)
+![](CPSpaces.png)
 
 This project illustrates the typical stages in the process to build a machine learning model to perform a regression task.  There are currently three Jupyter notebooks covering:
 
