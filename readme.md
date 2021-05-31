@@ -10,7 +10,7 @@ This project illustrates building a machine learning model to perform a regressi
 2. Data visualisation
 3. Creating a machine learning model
 
-The main packages used are: pandas, geopandas, LightGBM and scikit-learn.
+The main packages used are: pandas, geopandas, LightGBM FLAML, Shap and scikit-learn.
 
 ## Data
 
@@ -30,3 +30,10 @@ The following chart gives an overview of the modelling process.
 
 
 
+## Operational Deployment
+
+Predictions from the model can be obtained from the user-friendly [online calculator](https://voa-ui-app.herokuapp.com/).  
+
+This is a Dash app running on Heroku.  The model LightGBM model is deployed as an API using Flask and also running on Heroku.  The calculator app simply submits an HTTP POST request to the model API in order to obtain predictions, when triggered by the user.
+
+![VOA UI](C:\Users\paul_\voa-data\VOA UI.png)
