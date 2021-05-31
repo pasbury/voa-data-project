@@ -36,4 +36,4 @@ Predictions from the model can be obtained from the user-friendly [online calcul
 
 This is a Dash app running on Heroku.  The model LightGBM model is deployed as an API using Flask and also running on Heroku.  The calculator app simply submits an HTTP POST request to the model API in order to obtain predictions, when triggered by the user.
 
-![VOA UI](\VOA UI.png)
+![](VOA UI.png)
